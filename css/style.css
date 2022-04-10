@@ -78,3 +78,25 @@
 .header-nav__menu-link:hover:after{
     width: 100%;
 }
+
+
+.header__professional-image {
+    width: 100%;
+    border-radius: 50%;
+    
+  }
+  .header__professional-image-container{
+      width: 20rem;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .main-infPer{
+      width: 50%;
+      text-align: center;
+  }
+  .main{
+      justify-content: space-between;
+      display: flex;
+      gap: 5rem;
+  }
