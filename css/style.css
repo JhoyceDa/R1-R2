@@ -16,9 +16,13 @@
     --border-radius: 0.5rem;
     --all-transitions: all 0.25s;
   }
+
+  .body{
+      background-image: url('/img/17545.jpg');
+  }
   .header{
     background-color: rgb(28, 26, 54);
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -92,6 +96,7 @@
       margin-right: auto;
   }
   .main-infPer{
+      
       width: 50%;
       text-align: center;
   }
@@ -99,4 +104,7 @@
       justify-content: space-between;
       display: flex;
       gap: 5rem;
+  }
+  .form{
+      margin: 10rem;
   }
