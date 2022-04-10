@@ -21,7 +21,8 @@
       background-image: url('/img/17545.jpg');
   }
   .header{
-    background-color: rgb(28, 26, 54);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(51, 102, 189);
     position: sticky;
     top: 0;
     left: 0;
@@ -94,9 +95,10 @@
       position: relative;
       margin-left: auto;
       margin-right: auto;
+      transition: all 0.5rem;
   }
   .main-infPer{
-      
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       width: 50%;
       text-align: center;
   }
@@ -104,7 +106,23 @@
       justify-content: space-between;
       display: flex;
       gap: 5rem;
+      font-size: 2rem;
+      color: #101dd0;
   }
   .form{
-      margin: 10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10rem;
+    background-color:#659eed;
+    border-radius: 10rem;
   }
+  .header__professional-image:hover{
+    box-shadow: 0 0 1rem 0 rgb(25, 4, 100);
+}
+input{
+    border-radius: 0.5rem;  
+    
+}
+.article{
+    color: #fff;
+}
+
