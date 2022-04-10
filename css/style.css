@@ -123,6 +123,11 @@ input{
     
 }
 .article{
-    color: #fff;
+    color: rgb(219, 8, 8);
 }
 
+@media(max-width: 1477px){
+    .main{
+        display: grid;
+    }
+}
