@@ -18,7 +18,7 @@
   }
 
   .body{
-      background-image: url('/img/internet-3116062.jpg');
+      background-image: url('https://pixabay.com/get/g9a951ff85e438ece308d5fabba6271ac5a555ca386e24c4ce54c6019b09cf4e457702eae49397c4878815fd898c6335d.jpg');
   }
   .header{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -118,7 +118,7 @@
   .form{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 10rem;
-    background-color:#659eed;
+    background-color:#4f8adc;
     border-radius: 5rem;
   }
   .header__professional-image:hover{
@@ -130,7 +130,8 @@ input{
     
 }
 .article{
-    color: rgb(219, 8, 8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(41, 209, 131);
 }
 
 @media(max-width:1123px){
