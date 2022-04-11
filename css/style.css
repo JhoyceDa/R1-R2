@@ -8,8 +8,8 @@
     --button-color: #61dafb;
     --button-color-active: #fff;
     --button-text-color: #000;
-    --primary-highlight: #61dafb;
-    --secondary-highlight: #ffd700;
+    --primary-highlight: #1bb83f;
+    --secondary-highlight: #c00a1c;
     --padding-section: 2em 0;
     --padding-container: 0 2em;
     --max-width-container: 1024px;
@@ -22,7 +22,7 @@
   }
   .header{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(51, 102, 189);
+    background-color: rgb(27, 45, 78);
     position: sticky;
     top: 0;
     left: 0;
@@ -99,7 +99,7 @@
   }
   .main-infPer{
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      width: 50%;
+      
       text-align: center;
       display: grid;
       margin: 1rem;
@@ -109,15 +109,16 @@
   .main{
       justify-content: space-between;
       display: flex;
-      gap: 5rem;
       font-size: 2rem;
       color: #101dd0;
+      height: 10;
       
       
   }
   .form{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 10rem;
+    height: 40rem;
     background-color:#4f8adc;
     border-radius: 5rem;
   }
@@ -137,12 +138,27 @@ input{
 @media(max-width:1123px){
     .main{
         display: grid;
-        
-        
+        margin-top: 3rem;
+               
     }
     .main-infPer{
         justify-content: center;
+        margin-top: 3rem;
     }
+    
+       
 }
 
+.table{
+    
+    display: flex;
+    margin-top: 20rem;
+    border: 1px solid #000;
+    height: 8rem;
+    
+}
+td, tr{
+    border: 1px solid #000;
+    
+}
 
