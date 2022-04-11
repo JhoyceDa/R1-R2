@@ -18,7 +18,7 @@
   }
 
   .body{
-      background-image: url('/img/17545.jpg');
+      background-image: url('/img/internet-3116062.jpg');
   }
   .header{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -119,13 +119,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 10rem;
     background-color:#659eed;
-    border-radius: 10rem;
+    border-radius: 5rem;
   }
   .header__professional-image:hover{
     box-shadow: 0 0 1rem 0 rgb(25, 4, 100);
 }
 input{
-    border-radius: 0.5rem;  
+    border-radius: 0.5rem;
+    padding: 0.5rem;  
     
 }
 .article{
